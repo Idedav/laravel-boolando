@@ -1,0 +1,42 @@
+footer{
+    background-color: $back-ground-footer;
+    height: 200px;
+    color: white;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      .reference{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+        .links a{
+          color: white;
+          text-decoration: none;
+          font-size: 1.2rem;
+        }
+      }
+      .socials{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h4{
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        a{
+          color: white;
+          font-size: 2rem;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
