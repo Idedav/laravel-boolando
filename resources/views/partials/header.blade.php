@@ -1,11 +1,16 @@
+@php
+    $gen_menu = config('menues.type_menu');
+    $icon_menu = config('menues.icon_menu');
+@endphp
+
 <header>
     <div class="container">
 
         <nav>
             <ul>
-                <li><a href="#">Donna</a></li>
-                <li><a href="#">Uomo</a></li>
-                <li><a href="#">Bambini</a></li>
+                @foreach ($gen_menu as $item)
+                    <li><a href="#">{{ $item['text'] }}</a></li>
+                @endforeach
             </ul>
         </nav>
 
@@ -14,9 +19,9 @@
         </div>
 
         <div class="icons">
-            <a href="#"><i class="fa-regular fa-user"></i></a>
-            <a href="#"><i class="fa-regular fa-heart"></i></a>
-            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            @foreach ($icon_menu as $item)
+                <a href="#"><i class="{{ $item['text'] }}"></i></a>
+            @endforeach
         </div>
 
     </div>
