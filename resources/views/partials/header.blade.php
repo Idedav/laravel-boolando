@@ -20,7 +20,7 @@
 
         <div class="icons">
             @foreach ($icon_menu as $item)
-                <a href="#"><i class="{{ $item['text'] }}"></i></a>
+                <a href="{{ route($item['name']) }}"><i class="{{ $item['text'] }}"></i></a>
             @endforeach
         </div>
 

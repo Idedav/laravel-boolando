@@ -5,6 +5,9 @@ main{
       flex-wrap: wrap;
       justify-content: space-around;
       margin: 50px auto;
+      .dc-container{
+        min-height: calc(100vh - 500px);
+      }
     }
     .product {
         margin-bottom: 40px;

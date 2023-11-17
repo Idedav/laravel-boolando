@@ -17,15 +17,15 @@ return [
     ],
     "icon_menu" => [
         [
-            "name" => "#",
+            "name" => "user",
             "text" => "fa-regular fa-user"
         ],
         [
-            "name" => "#",
+            "name" => "favourites",
             "text" => "fa-regular fa-heart"
         ],
         [
-            "name" => "#",
+            "name" => "favourites",
             "text" => "fa-solid fa-bag-shopping"
         ]
     ],
