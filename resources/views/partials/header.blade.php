@@ -10,7 +10,7 @@
         </nav>
 
         <div class="logo">
-            <img src="/public/boolean-logo.png" alt="">
+            <img src="img/boolean-logo.png" alt="Logo Boolando">
         </div>
 
         <div class="icons">
